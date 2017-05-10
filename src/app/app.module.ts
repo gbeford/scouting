@@ -9,11 +9,17 @@ import {MaterialModule} from '@angular/material';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
+import { MatchEntryComponent } from './match-entry/match-entry.component';
+import { PitEntryComponent } from './pit-entry/pit-entry.component';
+import { TeamListComponent } from './team-list/team-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    MatchEntryComponent,
+    PitEntryComponent,
+    TeamListComponent
   ],
   imports: [
     BrowserModule,
